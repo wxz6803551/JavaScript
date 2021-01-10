@@ -101,11 +101,11 @@ let COOKIES_SPLIT = "\n"; // 自定义多cookie之间连接的分隔符，默认
 nowTimes = new Date(new Date().getTime() + new Date().getTimezoneOffset()*60*1000 + 8*60*60*1000);  
 
 const qqreadbdArr = [];
-let qqreadbodyVal = "ywguid=50061314;ywkey=yw8BUDkkJMks;platform=ios;channel=mqqmina;mpVersion=1.0.9";
+let qqreadbodyVal = "";
 const qqreadtimeurlArr = [];
-let qqreadtimeurlVal = "https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=2016&refer=pages%2Fnav-library%2Findex&bid=648963&readTime=2334&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A2334%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1";
+let qqreadtimeurlVal = "";
 const qqreadtimehdArr = [];
-let qqreadtimeheaderVal = "{\"ywsession\":\"0ur75vewwk4s1hcdykakupl8vyqn5vol\",\"Cookie\":\"ywguid=50061314;ywkey=yw8BUDkkJMks;platform=ios;channel=mqqmina;mpVersion=1.0.9;qq_ver=8.5.0;os_ver=iOS 12.2;mpos_ver=1.23.0;platform=ios;openid=9313DA632AAAA06BBBC711F69C1207C9\";
+let qqreadtimeheaderVal = "";
 let qqreadBD = [];
 let qqreadtimeURL = [];
 let qqreadtimeHD = [];
