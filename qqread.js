@@ -70,7 +70,7 @@ const notifyInterval=3
 
 const jbid=1//换号则修改这个值,默认账号1
 const dd=1//单次任务延迟,默认1秒
-const TIME=30//单次时长上传限制，默认5分钟
+const TIME=40//单次时长上传限制，默认5分钟
 const maxtime=20//每日上传时长限制，默认20小时
 const wktimess=1200//周奖励领取标准，默认1200分钟
 var tz=''
@@ -346,7 +346,7 @@ return new Promise((resolve, reject) => {
      if(logs) $.log(`${jsname}, 阅读时长: ${data}`)
      time =JSON.parse(data)
      if (time.code==0)
-tz+='【阅读时长】:上传'+TIME/6+'分钟\n'
+tz+='【阅读时长】:上传'+TIME/10+'分钟\n'
 
 
 resolve()
